@@ -1,0 +1,24 @@
+nodepids=$(pidof node)
+echo $nodepids
+
+kill -9 $nodepids
+
+ngrokpids=$(pidof ngrok)
+
+kill -9 $ngrokpids
+
+
+mongodpid=$(pidof mongod)
+
+kill -9 $mongod
+
+nginxpids=$(pidof nginx)
+echo $nginxpids
+
+kill -9 $nginxpids
+
+
+
+terminalpid=$(pidof gnome-terminal-server)
+
+sudo kill -9 $terminalpid

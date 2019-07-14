@@ -1,0 +1,39 @@
+{
+  "homepage": "http://vanloiidk.github.io/web",
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "hls.js": "^0.8.8",
+    "immutable": "^4.0.0-rc.12",
+    "moment": "^2.24.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "gh-pages-deploy": "^0.5.1"
+  }
+}
